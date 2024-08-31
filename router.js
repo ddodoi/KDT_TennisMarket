@@ -1,7 +1,7 @@
 function route(pathname, handle, response){
     console.log('pathname: '+ pathname);
 
-    handle[pathname](response);
+    handle[pathname];
 }
 
 exports.route = route;
